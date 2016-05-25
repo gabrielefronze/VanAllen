@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E03AC7911AE7B518004AE8C9 /* Sequential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03AC7901AE7B518004AE8C9 /* Sequential.cpp */; };
+		E0B57CD71AC984BC00F4B217 /* FunctionFinalizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0B57CD01AC984BC00F4B217 /* FunctionFinalizer.cpp */; };
+		E0B57CD81AC984BC00F4B217 /* FunctionMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0B57CD11AC984BC00F4B217 /* FunctionMaster.cpp */; };
+		E0B57CDA1AC984BC00F4B217 /* FunctionWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0B57CD31AC984BC00F4B217 /* FunctionWorker.cpp */; };
+		E0B57CDB1AC984BC00F4B217 /* MainWithFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0B57CD41AC984BC00F4B217 /* MainWithFunc.cpp */; };
+		E0B57CDD1AC9A0CE00F4B217 /* VanAllenMonitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0B57CDC1AC9A0CE00F4B217 /* VanAllenMonitor.cpp */; };
+		E0BA6B6E1AE7AB3E004997A2 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = E0BA6B6D1AE7AB3E004997A2 /* makefile */; };
+		E0BEA7DF1AD5682B001178BE /* FunctionMasterFinalizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0BEA7DD1AD5682B001178BE /* FunctionMasterFinalizer.cpp */; };
+		E0BEA7E11AD57001001178BE /* socketcomm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0BEA7E01AD57001001178BE /* socketcomm.cpp */; };
+		E0CD44571AEF8D5900D3C90F /* timer.h in Sources */ = {isa = PBXBuildFile; fileRef = E0CD44561AEF8D5900D3C90F /* timer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E07C92A01AA8E76A00DA2710 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E03AC7901AE7B518004AE8C9 /* Sequential.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sequential.cpp; path = VanAllenMonitor/Sequential.cpp; sourceTree = SOURCE_ROOT; };
+		E0A30B291AE6978F009176AB /* LaunchVanAllen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = LaunchVanAllen.sh; path = VanAllenMonitor/LaunchVanAllen.sh; sourceTree = SOURCE_ROOT; };
+		E0A30B2A1AE6A4CE009176AB /* VanAllenConfig.config */ = {isa = PBXFileReference; lastKnownFileType = text; name = VanAllenConfig.config; path = VanAllenMonitor/VanAllenConfig.config; sourceTree = SOURCE_ROOT; usesTabs = 1; };
+		E0A3507C1ACECC19004E6C8A /* MonitorPrints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MonitorPrints.h; path = VanAllenMonitor/MonitorPrints.h; sourceTree = SOURCE_ROOT; };
+		E0B57CC61AC984BC00F4B217 /* DiffFuncVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiffFuncVector.h; path = VanAllenMonitor/DiffFuncVector.h; sourceTree = SOURCE_ROOT; };
+		E0B57CC71AC984BC00F4B217 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Functions.h; path = VanAllenMonitor/Functions.h; sourceTree = SOURCE_ROOT; };
+		E0B57CC81AC984BC00F4B217 /* Params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Params.h; path = VanAllenMonitor/Params.h; sourceTree = SOURCE_ROOT; };
+		E0B57CC91AC984BC00F4B217 /* Tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tags.h; path = VanAllenMonitor/Tags.h; sourceTree = SOURCE_ROOT; };
+		E0B57CCB1AC984BC00F4B217 /* pcg_extras.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = pcg_extras.hpp; path = VanAllenMonitor/pcg_extras.hpp; sourceTree = SOURCE_ROOT; };
+		E0B57CCC1AC984BC00F4B217 /* pcg_random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = pcg_random.hpp; path = VanAllenMonitor/pcg_random.hpp; sourceTree = SOURCE_ROOT; };
+		E0B57CCD1AC984BC00F4B217 /* pcg_uint128.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = pcg_uint128.hpp; path = VanAllenMonitor/pcg_uint128.hpp; sourceTree = SOURCE_ROOT; };
+		E0B57CD01AC984BC00F4B217 /* FunctionFinalizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunctionFinalizer.cpp; path = VanAllenMonitor/FunctionFinalizer.cpp; sourceTree = SOURCE_ROOT; };
+		E0B57CD11AC984BC00F4B217 /* FunctionMaster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunctionMaster.cpp; path = VanAllenMonitor/FunctionMaster.cpp; sourceTree = SOURCE_ROOT; };
+		E0B57CD31AC984BC00F4B217 /* FunctionWorker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunctionWorker.cpp; path = VanAllenMonitor/FunctionWorker.cpp; sourceTree = SOURCE_ROOT; };
+		E0B57CD41AC984BC00F4B217 /* MainWithFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainWithFunc.cpp; path = VanAllenMonitor/MainWithFunc.cpp; sourceTree = SOURCE_ROOT; };
+		E0B57CDC1AC9A0CE00F4B217 /* VanAllenMonitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VanAllenMonitor.cpp; path = VanAllenMonitor/VanAllenMonitor.cpp; sourceTree = SOURCE_ROOT; };
+		E0B7EF7D1AEE8709004172DA /* VanAllenCoherent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VanAllenCoherent; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B7EF7E1AEE8732004172DA /* BenchMarkSvsNP.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = BenchMarkSvsNP.sh; path = VanAllenMonitor/BenchMarkSvsNP.sh; sourceTree = SOURCE_ROOT; };
+		E0BA5CAE1AEA84DA00C720E8 /* BenchmarkSvsNel.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = BenchmarkSvsNel.sh; path = VanAllenMonitor/BenchmarkSvsNel.sh; sourceTree = SOURCE_ROOT; };
+		E0BA6B6D1AE7AB3E004997A2 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = makefile; path = VanAllenMonitor/makefile; sourceTree = SOURCE_ROOT; usesTabs = 1; };
+		E0BEA7DD1AD5682B001178BE /* FunctionMasterFinalizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunctionMasterFinalizer.cpp; path = VanAllenMonitor/FunctionMasterFinalizer.cpp; sourceTree = SOURCE_ROOT; };
+		E0BEA7E01AD57001001178BE /* socketcomm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = socketcomm.cpp; path = VanAllenMonitor/socketcomm.cpp; sourceTree = SOURCE_ROOT; };
+		E0CD44561AEF8D5900D3C90F /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timer.h; path = VanAllenMonitor/timer.h; sourceTree = SOURCE_ROOT; };
+		E0FB9F5E1ACB554300F1760E /* socketcomm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = socketcomm.h; path = VanAllenMonitor/socketcomm.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E07C929F1AA8E76A00DA2710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E07C92991AA8E76A00DA2710 = {
+			isa = PBXGroup;
+			children = (
+				E07C92A41AA8E76A00DA2710 /* VanAllen */,
+				E0B7EF7D1AEE8709004172DA /* VanAllenCoherent */,
+			);
+			sourceTree = "<group>";
+		};
+		E07C92A41AA8E76A00DA2710 /* VanAllen */ = {
+			isa = PBXGroup;
+			children = (
+				E03AC7901AE7B518004AE8C9 /* Sequential.cpp */,
+				E0B57CC61AC984BC00F4B217 /* DiffFuncVector.h */,
+				E0B57CC71AC984BC00F4B217 /* Functions.h */,
+				E0FB9F5E1ACB554300F1760E /* socketcomm.h */,
+				E0BEA7E01AD57001001178BE /* socketcomm.cpp */,
+				E0B57CC81AC984BC00F4B217 /* Params.h */,
+				E0B57CC91AC984BC00F4B217 /* Tags.h */,
+				E0B57CCB1AC984BC00F4B217 /* pcg_extras.hpp */,
+				E0B57CCC1AC984BC00F4B217 /* pcg_random.hpp */,
+				E0B57CCD1AC984BC00F4B217 /* pcg_uint128.hpp */,
+				E0B57CD11AC984BC00F4B217 /* FunctionMaster.cpp */,
+				E0B57CD01AC984BC00F4B217 /* FunctionFinalizer.cpp */,
+				E0BEA7DD1AD5682B001178BE /* FunctionMasterFinalizer.cpp */,
+				E0B57CD31AC984BC00F4B217 /* FunctionWorker.cpp */,
+				E0B57CD41AC984BC00F4B217 /* MainWithFunc.cpp */,
+				E0A3507C1ACECC19004E6C8A /* MonitorPrints.h */,
+				E0B57CDC1AC9A0CE00F4B217 /* VanAllenMonitor.cpp */,
+				E0A30B291AE6978F009176AB /* LaunchVanAllen.sh */,
+				E0A30B2A1AE6A4CE009176AB /* VanAllenConfig.config */,
+				E0BA6B6D1AE7AB3E004997A2 /* makefile */,
+				E0BA5CAE1AEA84DA00C720E8 /* BenchmarkSvsNel.sh */,
+				E0B7EF7E1AEE8732004172DA /* BenchMarkSvsNP.sh */,
+				E0CD44561AEF8D5900D3C90F /* timer.h */,
+			);
+			path = VanAllen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E07C92A11AA8E76A00DA2710 /* VanAllenCoherent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07C92A91AA8E76A00DA2710 /* Build configuration list for PBXNativeTarget "VanAllenCoherent" */;
+			buildPhases = (
+				E07C929E1AA8E76A00DA2710 /* Sources */,
+				E07C929F1AA8E76A00DA2710 /* Frameworks */,
+				E07C92A01AA8E76A00DA2710 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VanAllenCoherent;
+			productName = VanAllen;
+			productReference = E0B7EF7D1AEE8709004172DA /* VanAllenCoherent */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E07C929A1AA8E76A00DA2710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Gabriele Gaetano Fronzé";
+				TargetAttributes = {
+					E07C92A11AA8E76A00DA2710 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E07C929D1AA8E76A00DA2710 /* Build configuration list for PBXProject "VanAllenFinalMPIOMP noROOT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E07C92991AA8E76A00DA2710;
+			productRefGroup = E07C92991AA8E76A00DA2710;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E07C92A11AA8E76A00DA2710 /* VanAllenCoherent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E07C929E1AA8E76A00DA2710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B57CDB1AC984BC00F4B217 /* MainWithFunc.cpp in Sources */,
+				E0CD44571AEF8D5900D3C90F /* timer.h in Sources */,
+				E03AC7911AE7B518004AE8C9 /* Sequential.cpp in Sources */,
+				E0B57CDA1AC984BC00F4B217 /* FunctionWorker.cpp in Sources */,
+				E0BA6B6E1AE7AB3E004997A2 /* makefile in Sources */,
+				E0B57CD81AC984BC00F4B217 /* FunctionMaster.cpp in Sources */,
+				E0B57CD71AC984BC00F4B217 /* FunctionFinalizer.cpp in Sources */,
+				E0BEA7E11AD57001001178BE /* socketcomm.cpp in Sources */,
+				E0B57CDD1AC9A0CE00F4B217 /* VanAllenMonitor.cpp in Sources */,
+				E0BEA7DF1AD5682B001178BE /* FunctionMasterFinalizer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E07C92A71AA8E76A00DA2710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E07C92A81AA8E76A00DA2710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E07C92AA1AA8E76A00DA2710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/Cellar/open-mpi/1.8.4/include/**",
+					"/Users/Gabriele/alicesw/root/v5-34-22/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/open-mpi/1.8.4/lib/**",
+					"/Users/Gabriele/alicesw/root/v5-34-22/lib/**",
+				);
+				OTHER_LDFLAGS = (
+					"-lmpi_cxx",
+					"-lmpi",
+					"-lm",
+				);
+				PRODUCT_NAME = VanAllenCoherent;
+			};
+			name = Debug;
+		};
+		E07C92AB1AA8E76A00DA2710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/Cellar/open-mpi/1.8.4/include/**",
+					"/Users/Gabriele/alicesw/root/v5-34-22/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/open-mpi/1.8.4/lib/**",
+					"/Users/Gabriele/alicesw/root/v5-34-22/lib/**",
+				);
+				OTHER_LDFLAGS = (
+					"-lmpi_cxx",
+					"-lmpi",
+					"-lm",
+				);
+				PRODUCT_NAME = VanAllenCoherent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E07C929D1AA8E76A00DA2710 /* Build configuration list for PBXProject "VanAllenFinalMPIOMP noROOT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07C92A71AA8E76A00DA2710 /* Debug */,
+				E07C92A81AA8E76A00DA2710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07C92A91AA8E76A00DA2710 /* Build configuration list for PBXNativeTarget "VanAllenCoherent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07C92AA1AA8E76A00DA2710 /* Debug */,
+				E07C92AB1AA8E76A00DA2710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E07C929A1AA8E76A00DA2710 /* Project object */;
+}
